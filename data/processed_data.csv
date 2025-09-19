@@ -1,0 +1,357 @@
+cleaned_text
+machine learning ml field study artificial intelligence concerned development study statistical algorithms learn data generalise unseen data thus perform tasks without explicit instructions
+within subdiscipline machine learning advances field deep learning allowed neural networks class statistical algorithms surpass many previous machine learning approaches performance
+ml finds application many fields including natural language processing computer vision speech recognition email filtering agriculture medicine
+application ml business problems known predictive analytics
+statistics mathematical optimisation mathematical programming methods comprise foundations machine learning
+data mining related field study focusing exploratory data analysis eda via unsupervised learning
+theoretical viewpoint probably approximately correct learning provides framework describing machine learning
+term machine learning coined arthur samuel ibm employee pioneer field computer gaming artificial intelligence
+synonym selfteaching computers also used time period
+earliest machine learning program introduced arthur samuel invented computer program calculated winning chance checkers side history machine learning roots back decades human desire effort study human cognitive processes
+canadian psychologist donald hebb published book organization behavior introduced theoretical neural structure formed certain interactions among nerve cells
+hebbs model neurons interacting one another set groundwork ais machine learning algorithms work nodes artificial neurons used computers communicate data
+researchers studied human cognitive systems contributed modern machine learning technologies well including logician walter pitts warren mcculloch proposed early mathematical models neural networks come algorithms mirror human thought processes
+early experimental learning machine punched tape memory called cybertron developed raytheon company analyse sonar signals electrocardiograms speech patterns using rudimentary reinforcement learning
+repetitively trained human operatorteacher recognise patterns equipped goof button cause reevaluate incorrect decisions
+representative book research machine learning nilssons book learning machines dealing mostly machine learning pattern classification
+interest related pattern recognition continued described duda hart
+report given using teaching strategies artificial neural network learns recognise characters letters digits special symbols computer terminal
+tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks measured p improves experience e definition tasks machine learning concerned offers fundamentally operational definition rather defining field cognitive terms
+follows alan turings proposal paper computing machinery intelligence question machines think
+modern day machine learning algorithms broken algorithms types supervised learning algorithms unsupervised learning algorithms reinforcement learning algorithms
+scientific endeavour machine learning grew quest artificial intelligence ai
+early days ai academic discipline researchers interested machines learn data
+attempted approach problem various symbolic methods well termed neural networks mostly perceptrons models later found reinventions generalised linear models statistics
+probabilistic reasoning also employed especially automated medical diagnosis
+however increasing emphasis logical knowledgebased approach caused rift ai machine learning
+probabilistic systems plagued theoretical practical problems data acquisition representation
+expert systems come dominate ai statistics favour
+work symbolicknowledgebased learning continue within ai leading inductive logic programmingilp statistical line research outside field ai proper pattern recognition information retrieval
+neural networks research abandoned ai computer science around time
+line continued outside aics field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton
+main success came mids reinvention backpropagation
+machine learning ml reorganised recognised field started flourish
+field changed goal achieving artificial intelligence tackling solvable problems practical nature
+shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory
+system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution
+conversely optimal compressor used prediction finding symbol compresses best given previous history
+equivalence used justification using data compression benchmark general intelligence
+alternative view show compression algorithms implicitly map strings implicit feature space vectors compressionbased similarity measures compute similarity within feature spaces
+maps input string x corresponding vector norm x
+exhaustive examination feature spaces underlying compression algorithms precluded space instead feature vectors chooses examine three representative lossless compression methods lzw lz ppm
+according aixi theory connection directly explained hutter prize best possible compression x smallest possible software generates x
+example model zip files compressed size includes zip file unzipping software since unzip without may even smaller combined form
+examples aipowered audiovideo compression software include nvidia maxine aivc
+examples software perform aipowered image compression include opencv tensorflow matlabs image processing toolbox ipt highfidelity generative image compression
+unsupervised machine learning kmeans clustering utilized compress data grouping similar data points clusters
+technique simplifies handling extensive datasets lack predefined labels finds widespread use fields image compression
+data compression aims reduce size data files enhancing storage efficiency speeding data transmission
+kmeans clustering unsupervised machine learning algorithm employed partition dataset specified number clusters k represented centroid points
+process condenses extensive datasets compact set representative points
+particularly beneficial image signal processing kmeans clustering aids data reduction replacing groups data points centroids thereby preserving core information original data significantly decreasing required storage space
+machine learning data mining often employ methods overlap significantly machine learning focuses prediction based known properties learned training data data mining focuses discovery previously unknown properties data analysis step knowledge discovery databases
+data mining uses many machine learning methods different goals hand machine learning also employs data mining methods unsupervised learning preprocessing step improve learner accuracy
+much confusion two research communities often separate conferences separate journals ecml pkdd major exception comes basic assumptions work machine learning performance usually evaluated respect ability reproduce known knowledge knowledge discovery data mining kdd key task discovery previously unknown knowledge
+evaluated respect known knowledge uninformed unsupervised method easily outperformed supervised methods typical kdd task supervised methods used due unavailability training data
+machine learning also intimate ties optimisation many learning problems formulated minimisation loss function training set examples
+loss functions express discrepancy predictions model trained actual problem instances example classification one wants assign label instances models trained correctly predict preassigned labels set examples
+characterizing generalisation various learning algorithms active topic current research especially deep learning algorithms
+machine learning statistics closely related fields terms methods distinct principal goal statistics draws population inferences sample machine learning finds generalisable predictive patterns
+conventional statistical analyses require priori selection model suitable study data set
+addition significant theoretically relevant variables based previous experience included analysis
+contrast machine learning built prestructured model rather data shape model detecting underlying patterns
+variables input used train model accurate ultimate model
+leo breiman distinguished two statistical modelling paradigms data model algorithmic model wherein algorithmic model means less machine learning algorithms like random forest
+statisticians adopted methods machine learning leading combined field call statistical learning
+analytical computational techniques derived deeprooted physics disordered systems extended largescale problems including machine learning eg analyse weight space deep neural networks
+statistical physics thus finding applications area medical diagnostics
+generalisation context ability learning machine perform accurately new unseen examplestasks experienced learning data set
+training examples come generally unknown probability distribution considered representative space occurrences learner build general model space enables produce sufficiently accurate predictions new cases
+computational analysis machine learning algorithms performance branch theoretical computer science known computational learning theory via probably approximately correct learning model
+training sets finite future uncertain learning theory usually yield guarantees performance algorithms
+instead probabilistic bounds performance quite common
+biasvariance decomposition one way quantify generalisation error
+best performance context generalisation complexity hypothesis match complexity function underlying data
+hypothesis less complex function model fitted data
+complexity model increased response training error decreases
+hypothesis complex model subject overfitting generalisation poorer
+addition performance bounds learning theorists study time complexity feasibility learning
+computational learning theory computation considered feasible done polynomial time
+two kinds time complexity results positive results show certain class functions learned polynomial time
+negative results show certain classes learned polynomial time
+machine learning approaches traditionally divided three broad categories correspond learning paradigms depending nature signal feedback available learning system
+although algorithm advantages limitations single algorithm works problems
+supervised learning algorithms build mathematical model set data contains inputs desired outputs
+data known training data consists set training examples
+training example one inputs desired output also known supervisory signal
+mathematical model training example represented array vector sometimes called feature vector training data represented matrix
+iterative optimisation objective function supervised learning algorithms learn function used predict output associated new inputs
+optimal function allows algorithm correctly determine output inputs part training data
+algorithm improves accuracy outputs predictions time said learned perform task
+types supervisedlearning algorithms include active learning classification regression
+classification algorithms used outputs restricted limited set values regression algorithms used outputs take numerical value within range
+example classification algorithm filters emails input incoming email output folder file email
+contrast regression used tasks predicting persons height based factors like age genetics forecasting future temperatures based historical data
+similarity learning area supervised machine learning closely related regression classification goal learn examples using similarity function measures similar related two objects
+applications ranking recommendation systems visual identity tracking face verification speaker verification
+unsupervised learning algorithms find structures data labelled classified categorised
+instead responding feedback unsupervised learning algorithms identify commonalities data react based presence absence commonalities new piece data
+central applications unsupervised machine learning include clustering dimensionality reduction density estimation
+cluster analysis assignment set observations subsets called clusters observations within cluster similar according one predesignated criteria observations drawn different clusters dissimilar
+different clustering techniques make different assumptions structure data often defined similarity metric evaluated example internal compactness similarity members cluster separation difference clusters
+methods based estimated density graph connectivity
+special type unsupervised learning called selfsupervised learning involves training model generating supervisory signal data
+semisupervised learning falls unsupervised learning without labelled training data supervised learning completely labelled training data
+training examples missing training labels yet many machinelearning researchers found unlabelled data used conjunction small amount labelled data produce considerable improvement learning accuracy
+weakly supervised learning training labels noisy limited imprecise however labels often cheaper obtain resulting larger effective training sets
+reinforcement learning area machine learning concerned software agents ought take actions environment maximise notion cumulative reward
+due generality field studied many disciplines game theory control theory operations research information theory simulationbased optimisation multiagent systems swarm intelligence statistics genetic algorithms
+reinforcement learning environment typically represented markov decision process mdp
+many reinforcement learning algorithms use dynamic programming techniques
+reinforcement learning algorithms assume knowledge exact mathematical model mdp used exact models infeasible
+reinforcement learning algorithms used autonomous vehicles learning play game human opponent
+dimensionality reduction process reducing number random variables consideration obtaining set principal variables
+words process reducing dimension feature set also called number features
+dimensionality reduction techniques considered either feature elimination extraction
+one popular methods dimensionality reduction principal component analysis pca
+pca involves changing higherdimensional data eg smaller space eg
+manifold hypothesis proposes highdimensional data sets lie along lowdimensional manifolds many dimensionality reduction techniques make assumption leading area manifold learning manifold regularisation
+approaches developed fit neatly threefold categorisation sometimes one used machine learning system
+selflearning machine learning paradigm introduced along neural network capable selflearning named crossbar adaptive array caa
+gives solution problem learning without external reward introducing emotion internal reward
+emotion used state evaluation selflearning agent
+caa selflearning algorithm computes crossbar fashion decisions actions emotions feelings consequence situations
+selflearning algorithm updates memory matrix w iteration executes following machine learning routine
+system one input situation one output action behaviour
+neither separate reinforcement input advice input environment
+backpropagated value secondary reinforcement emotion toward consequence situation
+caa exists two environments one behavioural environment behaves genetic environment wherefrom initially receives initial emotions situations encountered behavioural environment
+receiving genome species vector genetic environment caa learns goalseeking behaviour environment contains desirable undesirable situations
+several learning algorithms aim discovering better representations inputs provided training
+classic examples include principal component analysis cluster analysis
+feature learning algorithms also called representation learning algorithms often attempt preserve information input also transform way makes useful often preprocessing step performing classification predictions
+technique allows reconstruction inputs coming unknown datagenerating distribution necessarily faithful configurations implausible distribution
+replaces manual feature engineering allows machine learn features use perform specific task
+supervised feature learning features learned using labelled input data
+examples include artificial neural networks multilayer perceptrons supervised dictionary learning
+unsupervised feature learning features learned unlabelled input data
+examples include dictionary learning independent component analysis autoencoders matrix factorisation various forms clustering
+manifold learning algorithms attempt constraint learned representation lowdimensional
+sparse coding algorithms attempt constraint learned representation sparse meaning mathematical model many zeros
+multilinear subspace learning algorithms aim learn lowdimensional representations directly tensor representations multidimensional data without reshaping higherdimensional vectors
+deep learning algorithms discover multiple levels representation hierarchy features higherlevel abstract features defined terms generating lowerlevel features
+argued intelligent machine one learns representation disentangles underlying factors variation explain observed data
+feature learning motivated fact machine learning tasks classification often require input mathematically computationally convenient process
+however realworld data images video sensory data yielded attempts algorithmically define specific features
+alternative discover features representations examination without relying explicit algorithms
+sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix
+method strongly nphard difficult solve approximately
+popular heuristic method sparse dictionary learning ksvd algorithm
+sparse dictionary learning applied several contexts
+classification problem determine class previously unseen training example belongs
+dictionary class already built new training example associated class best sparsely represented corresponding dictionary
+sparse dictionary learning also applied image denoising
+key idea clean image patch sparsely represented image dictionary noise
+data mining anomaly detection also known outlier detection identification rare items events observations raise suspicions differing significantly majority data
+typically anomalous items represent issue bank fraud structural defect medical problems errors text
+anomalies referred outliers novelties noise deviations exceptions
+particular context abuse network intrusion detection interesting objects often rare objects unexpected bursts inactivity
+pattern adhere common statistical definition outlier rare object
+many outlier detection methods particular unsupervised algorithms fail data unless aggregated appropriately
+instead cluster analysis algorithm may able detect microclusters formed patterns
+three broad categories anomaly detection techniques exist
+unsupervised anomaly detection techniques detect anomalies unlabelled test data set assumption majority instances data set normal looking instances seem fit least remainder data set
+supervised anomaly detection techniques require data set labelled normal abnormal involves training classifier key difference many statistical classification problems inherently unbalanced nature outlier detection
+semisupervised anomaly detection techniques construct model representing normal behaviour given normal training data set test likelihood test instance generated model
+robot learning inspired multitude machine learning methods starting supervised learning reinforcement learning finally metalearning eg
+association rule learning rulebased machine learning method discovering relationships variables large databases
+intended identify strong rules discovered databases using measure interestingness
+rulebased machine learning general term machine learning method identifies learns evolves rules store manipulate apply knowledge
+defining characteristic rulebased machine learning algorithm identification utilisation set relational rules collectively represent knowledge captured system
+contrast machine learning algorithms commonly identify singular model universally applied instance order make prediction
+rulebased machine learning approaches include learning classifier systems association rule learning artificial immune systems
+based concept strong rules rakesh agrawal tomasz imieliski arun swami introduced association rules discovering regularities products largescale transaction data recorded pointofsale pos systems supermarkets
+example rule n n p e b u r g e r displaystyle mathrm onionspotatoes rightarrow mathrm burger found sales data supermarket would indicate customer buys onions potatoes together likely also buy hamburger meat
+information used basis decisions marketing activities promotional pricing product placements
+addition market basket analysis association rules employed today application areas including web usage mining intrusion detection continuous production bioinformatics
+contrast sequence mining association rule learning typically consider order items either within transaction across transactions
+learning classifier systems lcs family rulebased machine learning algorithms combine discovery component typically genetic algorithm learning component performing either supervised learning reinforcement learning unsupervised learning
+seek identify set contextdependent rules collectively store apply knowledge piecewise manner order make predictions
+inductive logic programming ilp approach rule learning using logic programming uniform representation input examples background knowledge hypotheses
+given encoding known background knowledge set examples represented logical database facts ilp system derive hypothesized logic program entails positive negative examples
+inductive programming related field considers kind programming language representing hypotheses logic programming functional programs
+inductive logic programming particularly useful bioinformatics natural language processing
+gordon plotkin ehud shapiro laid initial theoretical foundation inductive machine learning logical setting
+shapiro built first implementation model inference system prolog program inductively inferred logic programs positive negative examples
+term inductive refers philosophical induction suggesting theory explain observed facts rather mathematical induction proving property members wellordered set
+machine learning model type mathematical model trained given dataset used make predictions classifications new data
+training learning algorithm iteratively adjusts models internal parameters minimise errors predictions
+extension term model refer several levels specificity general class models associated learning algorithms fully trained model internal parameters tuned
+various types models used researched machine learning systems picking best model task called model selection
+artificial neural networks anns connectionist systems computing systems vaguely inspired biological neural networks constitute animal brains
+systems learn perform tasks considering examples generally without programmed taskspecific rules
+ann model based collection connected units nodes called artificial neurons loosely model neurons biological brain
+connection like synapses biological brain transmit information signal one artificial neuron another
+artificial neuron receives signal process signal additional artificial neurons connected
+common ann implementations signal connection artificial neurons real number output artificial neuron computed nonlinear function sum inputs
+artificial neurons edges typically weight adjusts learning proceeds
+weight increases decreases strength signal connection
+artificial neurons may threshold signal sent aggregate signal crosses threshold
+different layers may perform different kinds transformations inputs
+signals travel first layer input layer last layer output layer possibly traversing layers multiple times
+original goal ann approach solve problems way human brain would
+however time attention moved performing specific tasks leading deviations biology
+artificial neural networks used variety tasks including computer vision speech recognition machine translation social network filtering playing board video games medical diagnosis
+deep learning consists multiple hidden layers artificial neural network
+approach tries model way human brain processes light sound vision hearing
+successful applications deep learning computer vision speech recognition
+decision tree learning uses decision tree predictive model go observations item represented branches conclusions items target value represented leaves
+one predictive modelling approaches used statistics data mining machine learning
+tree models target variable take discrete set values called classification trees tree structures leaves represent class labels branches represent conjunctions features lead class labels
+decision trees target variable take continuous values typically real numbers called regression trees
+decision analysis decision tree used visually explicitly represent decisions decision making
+data mining decision tree describes data resulting classification tree input decisionmaking
+random forest regression rfr falls umbrella decision treebased models
+rfr ensemble learning method builds multiple decision trees averages predictions improve accuracy avoid overfitting
+build decision trees rfr uses bootstrapped sampling instance decision tree trained random data training set
+random selection rfr training enables model reduce bias predictions achieve higher degree accuracy
+rfr generates independent decision trees work single output data well multiple regressor tasks
+makes rfr compatible used various applications
+supportvector machines svms also known supportvector networks set related supervised learning methods used classification regression
+given set training examples marked belonging one two categories svm training algorithm builds model predicts whether new example falls one category
+svm training algorithm nonprobabilistic binary linear classifier although methods platt scaling exist use svm probabilistic classification setting
+addition performing linear classification svms efficiently perform nonlinear classification using called kernel trick implicitly mapping inputs highdimensional feature spaces
+regression analysis encompasses large variety statistical methods estimate relationship input variables associated features
+common form linear regression single line drawn best fit given data according mathematical criterion ordinary least squares
+latter often extended regularisation methods mitigate overfitting bias ridge regression
+dealing nonlinear problems goto models include polynomial regression example used trendline fitting microsoft excel logistic regression often used statistical classification even kernel regression introduces nonlinearity taking advantage kernel trick implicitly map input variables higherdimensional space
+multivariate linear regression extends concept linear regression handle multiple dependent variables simultaneously
+approach estimates relationships set input variables several output variables fitting multidimensional linear model
+particularly useful scenarios outputs interdependent share underlying patterns predicting multiple economic indicators reconstructing images inherently multidimensional
+bayesian network belief network directed acyclic graphical model probabilistic graphical model represents set random variables conditional independence directed acyclic graph dag
+example bayesian network could represent probabilistic relationships diseases symptoms
+given symptoms network used compute probabilities presence various diseases
+efficient algorithms exist perform inference learning
+bayesian networks model sequences variables like speech signals protein sequences called dynamic bayesian networks
+generalisations bayesian networks represent solve decision problems uncertainty called influence diagrams
+gaussian process stochastic process every finite collection random variables process multivariate normal distribution relies predefined covariance function kernel models pairs points relate depending locations
+given set observed points inputoutput examples distribution unobserved output new point function input data directly computed looking like observed points covariances points new unobserved point
+gaussian processes popular surrogate models bayesian optimisation used hyperparameter optimisation
+genetic algorithm ga search algorithm heuristic technique mimics process natural selection using methods mutation crossover generate new genotypes hope finding good solutions given problem
+conversely machine learning techniques used improve performance genetic evolutionary algorithms
+theory belief functions also referred evidence theory dempstershafer theory general framework reasoning uncertainty understood connections frameworks probability possibility imprecise probability theories
+theoretical frameworks thought kind learner analogous properties evidence combined eg dempsters rule combination like pmfbased bayesian approach would combine probabilities
+however many caveats beliefs functions compared bayesian approaches order incorporate ignorance uncertainty quantification
+belief function approaches implemented within machine learning domain typically leverage fusion approach various ensemble methods better handle learners decision boundary low samples ambiguous class issues standard machine learning approach tend difficulty resolving
+however computational complexity algorithms dependent number propositions classes lead much higher computation time compared machine learning approaches
+rulebased machine learning rbml branch machine learning automatically discovers learns rules data
+provides interpretable models making useful decisionmaking fields like healthcare fraud detection cybersecurity
+key rbml techniques includes learning classifier systems association rule learning artificial immune systems similar models
+methods extract patterns data evolve rules time
+typically machine learning models require high quantity reliable data perform accurate predictions
+training machine learning model machine learning engineers need target collect large representative sample data
+data training set varied corpus text collection images sensor data data collected individual users service
+overfitting something watch training machine learning model
+trained models derived biased nonevaluated data result skewed undesired predictions
+biased models may result detrimental outcomes thereby furthering negative impacts society objectives
+algorithmic bias potential result data fully prepared training
+machine learning ethics becoming field study notably becoming integrated within machine learning engineering teams
+federated learning adapted form distributed artificial intelligence training machine learning models decentralises training process allowing users privacy maintained needing send data centralised server
+also increases efficiency decentralising training process many devices
+example gboard uses federated machine learning train search query prediction models users mobile phones without send individual searches back google
+mediaservices provider netflix held first netflix prize competition find program better predict user preferences improve accuracy existing cinematch movie recommendation algorithm least
+joint team made researchers att labsresearch collaboration teams big chaos pragmatic theory built ensemble model win grand prize million
+shortly prize awarded netflix realised viewers ratings best indicators viewing patterns everything recommendation changed recommendation engine accordingly
+article wall street journal noted use machine learning rebellion research predict financial crisis
+cofounder sun microsystems vinod khosla predicted medical doctors jobs would lost next two decades automated machine learning medical diagnostic software
+reported machine learning algorithm applied field art history study fine art paintings may revealed previously unrecognised influences among artists
+springer nature published first research book created using machine learning
+machine learning technology used help make diagnoses aid researchers developing cure covid
+machine learning recently applied predict proenvironmental behaviour travellers
+recently machine learning technology also applied optimise smartphones performance thermal behaviour based users interaction phone
+applied correctly machine learning algorithms mlas utilise wide range company characteristics predict stock returns without overfitting
+employing effective feature engineering combining forecasts mlas generate results far surpass obtained basic linear techniques like ols
+recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes
+machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters
+different solutions tested predict householders decide evacuate wildfires hurricanes
+applications focusing pre evacuation decisions building fires
+although machine learning transformative fields machinelearning programs often fail deliver expected results
+reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems
+black box theory poses another yet significant challenge
+black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data
+house lords select committee claimed intelligence system could substantial impact individuals life would considered acceptable unless provided full satisfactory explanation decisions makes
+selfdriving car uber failed detect pedestrian killed collision
+attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested
+microsofts bing chat chatbot reported produce hostile offensive response users
+machine learning used strategy update evidence related systematic review increased reviewer burden related growth biomedical literature
+improved training sets yet developed sufficiently reduce workload burden without limiting necessary sensitivity findings research
+explainable ai xai interpretable ai explainable machine learning xml artificial intelligence ai humans understand decisions predictions made ai
+contrasts black box concept machine learning even designers explain ai arrived specific decision
+refining mental models users aipowered systems dismantling misconceptions xai promises help users perform effectively
+xai may implementation social right explanation
+settling bad overly complex theory gerrymandered fit past training data known overfitting
+many systems attempt reduce overfitting rewarding theory accordance well fits data penalising theory accordance complex theory
+learners also disappoint learning wrong lesson
+toy example image classifier trained pictures brown horses black cats might conclude brown patches likely horses
+realworld example unlike humans current image classifiers often primarily make judgements spatial relationship components picture learn relationships pixels humans oblivious still correlate images certain types real objects
+modifying patterns legitimate image result adversarial images system misclassifies
+adversarial vulnerabilities also result nonlinear systems nonpattern perturbations
+systems possible change output changing single adversarially chosen pixel
+machine learning models often vulnerable manipulation evasion via adversarial machine learning
+researchers demonstrated backdoors placed undetectably classifying eg categories spam wellvisible spam posts machine learning models often developed trained third parties
+parties change classification input including cases type datasoftware transparency provided possibly including whitebox access
+classification machine learning models validated accuracy estimation techniques like holdout method splits data training test set conventionally training set test set designation evaluates performance training model test set
+comparison kfoldcrossvalidation method randomly partitions data k subsets k experiments performed respectively considering subset evaluation remaining k subsets training model
+addition holdout crossvalidation methods bootstrap samples n instances replacement dataset used assess model accuracy
+addition overall accuracy investigators frequently report sensitivity specificity meaning true positive rate tpr true negative rate tnr respectively
+similarly investigators sometimes report false positive rate fpr well false negative rate fnr
+however rates ratios fail reveal numerators denominators
+receiver operating characteristic roc along accompanying area roc curve auc offer additional tools classification model assessment
+higher auc associated better performing model
+ethics artificial intelligence covers broad range topics within ai considered particular ethical stakes
+includes algorithmic biases fairness automated decisionmaking accountability privacy regulation
+also covers various emerging potential future challenges machine ethics make machines behave ethically lethal autonomous weapon systems arms race dynamics ai safety alignment technological unemployment aienabled misinformation treat certain ai systems moral status ai welfare rights artificial superintelligence existential risks
+different machine learning approaches suffer different data biases
+machine learning system trained specifically current customers may able predict needs new customer groups represented training data
+trained humanmade data machine learning likely pick constitutional unconscious biases already present society
+systems trained datasets collected biases may exhibit biases upon use algorithmic bias thus digitising cultural prejudices
+example uks commission racial equality found st georges medical school using computer program trained data previous admissions staff program denied nearly candidates found either women noneuropean sounding names
+using job hiring data firm racist hiring policies may lead machine learning system duplicating bias scoring job applicants similarity previous successful applicants
+another example includes predictive policing company geoliticas predictive algorithm resulted disproportionately high levels overpolicing lowincome minority communities trained historical crime data
+responsible collection data documentation algorithmic rules used system considered critical part machine learning researchers blame lack participation representation minority population field ai machine learnings vulnerability biases
+fact according research carried computing research association cra female faculty merely make faculty members focus ai among several universities around world
+furthermore among group new us resident ai phd graduates identified white asian hispanic african american demonstrates lack diversity field ai
+language models learned data shown contain humanlike biases
+human languages contain biases machines trained language corpora necessarily also learn biases
+microsoft tested tay chatbot learned twitter quickly picked racist sexist language
+experiment carried propublica investigative journalism organisation machine learning algorithms insight recidivism rates among prisoners falsely flagged black defendants high risk twice often white defendants
+google photos tagged couple black people gorillas caused controversy
+gorilla label subsequently removed still recognise gorillas
+similar issues recognising nonwhite people found many systems
+challenges effective use machine learning may take longer adopted domains
+concern fairness machine learning reducing bias machine learning propelling use human good increasingly expressed artificial intelligence scientists including feifei li said theres nothing artificial ai
+inspired people created people andmost importantlyit impacts people
+powerful tool beginning understand profound responsibility
+concerns among health care professionals systems might designed publics interest incomegenerating machines
+especially true united states longstanding ethical dilemma improving health care also increasing profits
+example algorithms could designed provide patients unnecessary tests medication algorithms proprietary owners hold stakes
+potential machine learning health care provide professionals additional tool diagnose medicate plan recovery paths patients requires biases mitigated
+since advances machine learning algorithms computer hardware led efficient methods training deep neural networks particular narrow subdomain machine learning contain many layers nonlinear hidden units
+graphics processing units gpus often aispecific enhancements displaced cpus dominant method training largescale commercial cloud ai
+openai estimated hardware compute used largest deep learning projects alexnet alphazero found fold increase amount compute required doublingtime trendline months
+tensor processing units tpus specialised hardware accelerators developed google specifically machine learning workloads
+unlike generalpurpose gpus fpgas tpus optimised tensor computations making particularly efficient deep learning tasks training inference
+widely used google cloud ai services largescale machine learning models like googles deepmind alphafold large language models
+tpus leverage matrix multiplication units highbandwidth memory accelerate computations maintaining energy efficiency
+since introduction tpus become key component ai infrastructure especially cloudbased environments
+neuromorphic computing refers class computing systems designed emulate structure functionality biological neural networks
+systems may implemented softwarebased simulations conventional hardware specialised hardware architectures
+physical neural network specific type neuromorphic hardware relies electrically adjustable materials memristors emulate function neural synapses
+term physical neural network highlights use physical hardware computation opposed softwarebased implementations
+broadly refers artificial neural networks use materials adjustable resistance replicate neural synapses
+embedded machine learning subfield machine learning models deployed embedded systems limited computing resources wearable computers edge devices microcontrollers
+running models directly devices eliminates need transfer store data cloud servers processing thereby reducing risk data breaches privacy leaks theft intellectual property personal data business secrets
+embedded machine learning achieved various techniques hardware acceleration approximate computing model optimisation
+common optimisation techniques include pruning quantization knowledge distillation lowrank factorisation network architecture search parameter sharing
+software suites containing variety machine learning algorithms include following
